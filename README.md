@@ -4,33 +4,24 @@ This project is carried out by Social Robotics Lab at Uppsala University. We aim
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+At current stage, we aim to find a way to load pepper's image and display it.
 
-### Prerequisites
-
-What things you need to install the software and how to install them
+You can use
 
 ```
-Give examples
+python camera.py
 ```
 
-### Installing
+to run the first example.
 
-A step by step series of examples that tell you have to get a development env running
+### Prerequisites and Installation
 
-Say what the step will be
+In order to run the program, you need to have a look at development.sh to prepare for the environment.
 
+When the installation script is ready, one can run ./development.sh to install the prerequisite.
 ```
-Give the example
+./development.sh
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
@@ -82,7 +73,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Uppsala University
+* SSF Coin Porject
 
