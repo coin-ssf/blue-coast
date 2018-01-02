@@ -1,0 +1,6 @@
+[submodule "tensorforce"]
+	path = tensorforce
+	url = git@github.com:reinforceio/tensorforce.git
+[submodule "gym"]
+	path = gym
+	url = https://github.com/openai/gym.git
