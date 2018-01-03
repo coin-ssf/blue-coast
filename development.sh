@@ -22,3 +22,5 @@ cd gym
 pip install -e '.[atari]'
 conda install libgcc
 
+
+

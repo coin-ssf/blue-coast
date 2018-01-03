@@ -4,3 +4,9 @@
 [submodule "gym"]
 	path = gym
 	url = https://github.com/openai/gym.git
+[submodule "gym-pull"]
+	path = gym-pull
+	url = git@github.com:gaoyuankidult/gym-pull.git
+[submodule "gym-pepper"]
+	path = gym-pepper
+	url = git@github.com:gaoyuankidult/gym-pepper.git
