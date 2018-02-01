@@ -1,6 +1,7 @@
+# This document describes how was the current version developed.
+
 # create an anaconda environment for the porject
 conda create -n blue-coast-py27 python=2.7 anaconda
-
 
 # download naoqi from website
 # https://community.ald.softbankrobotics.com/en/resources/software/language/en-gb
@@ -22,5 +23,10 @@ cd gym
 pip install -e '.[atari]'
 conda install libgcc
 
+# install pepper environment
+cd gym-pepper
+pip install -e .
 
+# install pynput
+pip install pynput
 

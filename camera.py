@@ -3,6 +3,7 @@ import numpy as np
 import cv2
 from naoqi import ALProxy
 
+
 if(len(sys.argv) <= 2):
     print "parameter error"
     print "python " + sys.argv[0] + " <ipaddr> <port>"
@@ -31,7 +32,7 @@ image = np.zeros((height, width, 3), np.uint8)
 while True:
 
     # get image
-    result = videoDevice.getImageRemote(captureDevice);
+    result = videoDevice.getImageRemote(captureDevice)
 
     if result == None:
         print 'cannot capture.'
