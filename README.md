@@ -4,21 +4,22 @@ This project is carried out by Social Robotics Lab at Uppsala University. We aim
 
 ## Getting Started
 
-At current stage, we aim to find a way to load pepper's image and display it.
+At current stage, we aim to find a way to train pepper using Deep Q Network.
 
 You can use
 
 ```
-python camera.py
+coa blue-coast-py27
+python blue-coast.py pepper-v0 -a config/dqn-conf.json -n config/dqn-network.json
 ```
 
-to run the first example.
+to run the first example after install all the sub-modules.
 
 ### Prerequisites and Installation
 
 In order to run the program, you need to have a look at development.sh to prepare for the environment.
 
-When the installation script is ready, one can run ./development.sh to install the prerequisite.
+When the installation script is ready, one can use the example code in ./development.sh to install the prerequisite.
 ```
 ./development.sh
 ```
@@ -49,9 +50,8 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Tensorforce](https://github.com/reinforceio/tensorforce) - The Torsorflow-based framework for deep reinforcment learning.
+* [Gym](https://github.com/openai/gym) - Deep reinforcement learning environment library
 
 ## Contributing
 
@@ -63,7 +63,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Alex Yuan Gao** - *Initial work* - [BlueCoast](https://github.com/BlueCoast)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
