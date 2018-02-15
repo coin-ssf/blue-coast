@@ -15,6 +15,12 @@ python blue-coast.py pepper-v0 -a config/dqn-conf.json -n config/dqn-network.jso
 
 to run the first example after install all the sub-modules.
 
+### Development Stage
+Currently, we need to find a way to map the camera's image to the input of the face_recognition module.
+
+```
+python camera.py 130.238.17.115 9559 
+```
 ### Prerequisites and Installation
 
 In order to run the program, you need to have a look at development.sh to prepare for the environment.

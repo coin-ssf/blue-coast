@@ -30,3 +30,14 @@ pip install -e .
 # install pynput
 pip install pynput
 
+# install face_recognition module
+cd face_recognition
+pip install -e .
+
+# install roboschool module
+# please follow the instructions here
+
+ROBOSCHOOL_PATH=/media/alex/22E67196E6716AC5/Materials/Research/BlueCoast/blue-coast/roboschool
+
+# whten you run test, please add from OpenGL import GLU at the beginning of the file in order to avoid problems.
+# if there is something wrong with the compilation, then restart the computer.

@@ -10,3 +10,12 @@
 [submodule "gym-pepper"]
 	path = gym-pepper
 	url = git@github.com:gaoyuankidult/gym-pepper.git
+[submodule "face_recognition"]
+	path = face_recognition
+	url = git@github.com:ageitgey/face_recognition.git
+[submodule "roboschool"]
+	path = roboschool
+	url = git@github.com:openai/roboschool.git
+[submodule "openpose"]
+	path = openpose
+	url = https://github.com/CMU-Perceptual-Computing-Lab/openpose
