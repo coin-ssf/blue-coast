@@ -41,3 +41,4 @@ ROBOSCHOOL_PATH=/media/alex/22E67196E6716AC5/Materials/Research/BlueCoast/blue-c
 
 # whten you run test, please add from OpenGL import GLU at the beginning of the file in order to avoid problems.
 # if there is something wrong with the compilation, then restart the computer.
+git submodule update --init --recursive
