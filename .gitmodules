@@ -19,3 +19,6 @@
 [submodule "openpose"]
 	path = openpose
 	url = https://github.com/CMU-Perceptual-Computing-Lab/openpose
+[submodule "gym-unrealcv"]
+	path = gym-unrealcv
+	url = git@github.com:gaoyuankidult/gym-unrealcv.git

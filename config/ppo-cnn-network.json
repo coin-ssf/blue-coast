@@ -1,0 +1,36 @@
+[
+    {
+        "type": "conv2d",
+        "size": 32,
+        "window": 3,
+        "stride": 3,
+        "padding": "VALID"
+    },
+    {
+        "type": "conv2d",
+        "size": 32,
+        "window": 3,
+        "stride": 3,
+        "padding": "VALID"
+    },
+    {
+        "type": "conv2d",
+        "size": 16,
+        "window": 3,
+        "stride": 3,
+        "padding": "VALID"
+    },
+    {
+        "type": "flatten"
+    },
+    {
+        "type": "dense",
+        "size": 256,
+        "activation": "relu"
+    },
+    {
+        "type": "dense",
+        "size": 16,
+        "activation": "relu"
+    }
+]
